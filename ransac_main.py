@@ -142,6 +142,8 @@ line = (slope*x) + constant
 if(DEBUG_MODE):
   print (data_x)
   print (data_y)
+plt.xlim(0, x_size)
+plt.ylim(0, y_size)
 plt.plot(point1, point2, marker='o', c='green')
 plt.plot(x,line, c='green')
 plt.scatter(inlier_x,inlier_y, c='green')
