@@ -1,5 +1,9 @@
 # RANSAC
-Implementation of RANSAC algorithm in python 3
+Implementation of RANSAC algorithm in python 3.
+The code in ransac_main.py uses random data everytime it is run. 
+
+This random data is stored in <b>data_x</b> and <b>data_y</b>. (line 58)
+The main algorithm uses the properties of triangles to figure out the inliers and outliers.
 
 At the beginning of the file (upto line 16) the various parameters can be changed.
 
